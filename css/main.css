@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image: url('./images/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.topic {
+    font-family: 'Roboto Slab', 'serif';
+    text-align: center;
+    font-weight: normal;    
+    color: white;
+    font-size: 36px;
+    max-width: 780px;
+}
+
+.end-header {
+    margin-bottom: -133px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.avatar {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.name {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: bold;    
+    font-size: 18px;
+    line-height: 24px;
+    color:rgb(51, 51, 51);
+    margin-bottom: 5px;
+}
+
+.date {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-style: italic;
+    color:rgb(51, 51, 51);
+    line-height: 24px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #e6e6e6;
+    /* text-decoration: underline #e6e6e6 2px; */
+    margin: 0;
+}
+
+.body {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin-top: 193px;
+}
+
+.content {
+    margin: 0px;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.text-title {
+    font-family: 'Roboto Slab', 'serif';
+    font-weight: bold;    
+    font-size: 34px;
+    line-height: 24px;
+}
+
+.number {
+    color: gray;
+}
+
+.title {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: bold;    
+    font-size: 34px;
+    line-height: 24px;
+}
+
+.address {
+    display: block;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;   
+    color: #42b4d6;
+    margin-bottom: 20px;
+}
+
+.address:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.info {
+    padding-left: 40px;
+    max-width: 66.67%;
+    word-wrap: break-word;
+}
+
+.info p {
+    line-height: 200%;
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.info-image {
+    min-width: 100%;
+    padding-bottom: 120px;
+}
